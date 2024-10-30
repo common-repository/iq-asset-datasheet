@@ -1,0 +1,190 @@
+﻿/** CSS for the displayed page - Use this to override standard settings **/
+.IQaboutreviews {
+	margin-top: 10px;
+}
+
+.IQassetinfothumb {
+	width: 9%;
+}
+.IQassetinfoimg {
+	width: 100%;
+}
+.IQpricetitle {
+	margin-top: 10px;
+	clear: both;
+	padding-left: 20px;
+}
+.IQdescriptiontitle {
+	margin-top: 10px;
+}
+.IQdescriptionbody {	
+	border-top: solid 2px darkgray;
+	padding-top: 20px;
+}
+.IQpricebody {
+	border-top: solid 2px darkgray;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.IQreviewlink {
+	color: red !important;
+}
+.IQreviewtable td{
+	border:none;
+}
+.rating {
+	min-width:auto;
+}
+.IQreviewfullbody{
+	border-top: solid 2px darkgray;
+	padding-top: 20px;
+}
+.IQvideobody{
+	border-top: solid 2px darkgray;
+	padding-top: 20px;
+}
+.IQremoteAssetDataSummary {
+	float:right;
+	width: 40%;
+	min-width: 200px;
+	padding-left: 20px;
+	margin-top: -36px;
+	white-space: nowrap;	 	
+}
+.IQremoteAssetPriceSummary{	
+	float:left;
+	width: 40%;
+}
+.IQremoteassetreview {
+	margin-top: 10px;
+	clear:both;
+}
+
+.IQreviewSummaryTitleNoMakeModel {
+	display: none;
+}
+.IQremoteAssetThumbs{
+	text-align: left;
+   /* margin-left: auto;
+    margin-right: auto; */
+    clear: both;
+	padding-left: 4px;
+}
+.IQremoteAssetMainImage {
+    width: 60%;
+    float: right; 
+}
+
+.IQremoteAssetDescription {
+	clear:both;
+}
+.IQreviewSummaryMake{
+	 display:none;
+}
+.IQreviewSummaryModel{
+	display:none;
+}
+.IQremoteassetreview {
+	clear:both;
+}
+.IQvideobundle {
+	margin-top:10px;
+	float: left;
+	width: 60%;
+}
+.IQpackageassetscontainer{
+	width:100%;
+}
+.IQpackageassetsimage {
+	width: 100%;
+}
+.IQpackageassetsdata {
+	float: left;
+	width: 40%;
+}
+.IQpackageassetsimage{
+	float: left;
+	width: 60%
+}
+.IQassetinfopkgimg {
+    width: 80%;
+    float: right;		
+}
+.IQpackageassetdivider {
+	clear:both;
+}
+.youtube-player {
+	min-height: 400px;
+	width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+	.IQremoteAssetDataSummary {
+		float: none;
+		width: 100%;
+	}
+	.IQremoteAssetMainImage {
+    	width: 100%;
+    	float: none; 
+	}
+	.IQassetinfopkgimg {
+    	width: 100%;
+    	float: none;		
+	}
+	.IQremoteAssetThumbs {
+		padding: 0;
+		text-align: center;
+    	margin-left: auto;
+    	margin-right: auto; 
+    	clear: both;
+	}
+	.IQassetinfothumb {
+    	width: 15%;
+		margin-left: 0.5%;
+	}
+	.IQremoteAssetPriceSummary{
+		clear:both;
+		float: none;
+		width: 100%;
+	}
+	.IQremoteAssetPackage{
+		padding: 4px;
+	}
+	.IQvideobundle {
+		margin-top:10px;
+		float: none;
+		width: 100%;
+	}
+	.IQpricetitle {
+		padding-left: 0;
+	}
+	.youtube-player {
+		min-height: 400px;
+	}
+	.IQremoteAssetDataSummary {
+		padding: 0;
+	}
+	.IQremoteAssetDataSummary {
+		white-space: unset;
+	}
+}
+
+
+
+@media screen and (max-width: 450px) {
+	.youtube-player {
+		min-height: 200px;
+	}
+	.IQpackageassetsdata {
+		float: none;
+		width: 100%;
+	}
+	.IQpackageassetsimage{
+		float: none;
+		width: 100%
+	}
+	.IQassetinfopkgimg {
+		width: 100%;
+		float: none;		
+	}
+}

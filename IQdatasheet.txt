@@ -1,0 +1,44 @@
+	<div id="IQremoteInfo" class="IQremoteInfo"></div>
+	<div></div>
+		<div>
+        	<div><h1 id="IQremoteAssetTitle"  class="IQremoteAssetTitle"></h1></div>
+
+		</div>
+
+		<br style="clear:both;" />
+ 
+        <div id="IQremoteAssethtml" class="IQremoteAssethtml">
+					
+		</div>
+
+	<div id="IQimagebundle" class="IQimagebundle" >
+
+        	<!-- This div gets the Data summary -->
+        	<div id="IQremoteAssetDataSummary" class="IQremoteAssetDataSummary"></div>
+
+        	<!-- This div gets the main image -->
+        	<div id="IQremoteAssetMainImage" class="IQremoteAssetMainImage" ></div>
+
+        	<!-- This div gets the thumb images -->
+        	<div id="IQremoteAssetThumbs" class="IQremoteAssetThumbs"></div>
+	</div>
+        <!-- This div gets the Descriptive text -->
+        <!-- It's an example of a nested div -->
+        <div>            
+            <div id="IQremoteAssetDescription"  class="IQremoteAssetDescription"></div>	
+        </div>
+        <div>
+			<!-- if the item is a package, the package contents go here -->
+             <div id="IQremoteAssetPackage" class="IQremoteAssetPackage"></div>
+        </div>
+
+        <!-- This div gets the YouTube links -->
+        <div id=IQvideobundle class="IQvideobundle ">
+            <div id="IQassetvideothumb" class="IQassetvideothumb" >
+            </div>
+        </div>
+       
+        <!-- This div gets the Pricing summary-->
+        <div id="IQremoteAssetPriceSummary"  class="IQremoteAssetPriceSummary"></div>
+
+        <div id="IQremoteassetreview" class="IQremoteassetreview"> </div>

@@ -1,0 +1,39 @@
+/** CSS for the displayed page - Use this to override standard settings **/
+
+.IQassetinfothumb {
+	width: 31%;
+}
+.IQassetinfoimg {
+	width: 100%;
+}
+.IQpricetitle {
+	margin-top: 10px;
+	clear: both;
+}
+.IQdescriptiontitle {
+	margin-top: 10px;
+}
+.IQreviewlink {
+	color: red !important;
+}
+.IQremoteAssetThumbs{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.IQremoteAssetMainImage {
+   /* width: 66%;
+    float: left; */
+}
+.IQremoteAssetDescription {
+	clear:both;
+}
+.IQremoteAssetPriceSummary {
+	clear:both;
+}
+.IQremoteassetreview {
+	clear:both;
+}
+.IQvideobundle {
+	clear:both;
+}

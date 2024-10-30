@@ -1,0 +1,46 @@
+﻿<!-- Standard Layout -->
+	<div id="IQremoteInfo"></div>
+
+        <!-- div that displays the title for the Asset - Remove to hide the title. -->
+
+        <!-- This is also an example of using H tags rather than a div
+
+            <p id="IQremoteAssetTitle" class="IQremoteAssetTitle"> would work equally well -->
+
+<!--
+        <div><h1 id="IQremoteAssetTitle"  class="IQremoteAssetTitle"></h1></div>
+
+        <!-- This div is not currently used -->
+        <div id="IQremoteAssethtml"></div>
+
+	<div id="IQimagebundle" class="IQimagebundle" >
+
+        	<!-- This div gets the Data summary -->
+        	<div id="IQremoteAssetDataSummary" class="IQremoteAssetDataSummary"></div>
+
+        	<!-- This div gets the main image -->
+        	<div id="IQremoteAssetMainImage" class="IQremoteAssetMainImage" ></div>
+
+        	<!-- This div gets the thumb images -->
+        	<div id="IQremoteAssetThumbs" class="IQremoteAssetThumbs"></div>
+	</div>
+
+        <div id="IQremoteassetreview"> </div>
+       
+        <!-- This div gets the Pricing summary-->
+        <div id="IQremoteAssetPriceSummary"  class="IQremoteAssetPriceSummary"></div> 
+
+        <!-- This div gets the Descriptive text -->
+        <!-- It's an example of a nested div -->
+        <div>            
+            <div id="IQremoteAssetDescription"  class="IQremoteAssetDescription"></div>
+        </div>
+
+        <!-- This div gets the YouTube links -->
+        <div id=IQvideobundle class="IQvideobundle ">
+            <div id="IQassetvideothumb" >
+            </div>
+        </div>
+-->
+
+<!-- Custom Layout -->
